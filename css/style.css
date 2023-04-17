@@ -1,0 +1,346 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.site-header {
+    position: fixed;
+    max-width: 1440px;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 63px;
+    z-index: 5;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 56px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+}
+
+.menu-item:nth-child(3) {
+    margin-right: 24px;
+}
+
+.menu-btn {
+    display: inline-block;
+    padding: 21px 28px;
+    background-color: #7AE5FD;
+    color: #000;
+    border-radius: 87px;
+    text-transform: uppercase;
+}
+
+/* HOME SECTION */
+
+.home-title {
+    width: 700px;
+    text-transform: uppercase;
+    color: #9AD2DE;
+    font-weight: 800;
+    font-size: 93px;
+    line-height: 95%;
+}
+
+.home-text {
+    max-width: 484px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 64px;
+}
+
+.home-content {
+    max-width: 500px;
+    position: relative;
+    top: 200px;
+}
+
+.img-woman,
+.img-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#home {
+    background-color: #F1FDFF;
+    height: 727px;
+    position: relative;
+    padding-left: 100px;
+}
+
+/* PROGRAM SECTION */
+
+#program {
+    background-color: white;
+    margin: 143px 0 47px;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 27px;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.subtitle2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #73A6B1;
+    margin: 0 410px;
+    text-align: center;
+}
+
+.blue {
+    color: #73A6B1
+}
+
+.fz20 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+}
+
+.scene {
+    background-color: #F1FDFF;
+    padding-left: 40px;
+    padding-top: 40px;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+}
+
+.scene-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scene-title {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.scene-content ul {
+    margin-top: 45px;
+    width: 50%;
+}
+
+.scene-content li {
+    margin-bottom: 50px;
+}
+
+.scene-content li p {
+    margin-bottom: 10px;
+}
+
+.img-scene {
+    width: 585px;
+    height: 424px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+#img-scene1 {
+    position: relative;
+    bottom: 60px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* GIFT SECTION */
+
+#gift {
+    background-image: url(../assets/img/bg5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 738px;
+    max-width: 1285px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+}
+
+.gift-wrapper {
+    background-color: #F1FDFF;
+    max-width: 1240px;
+    width: 100%;
+    height: 277px;
+    border-radius: 10px;
+}
+
+    .gift-text {
+        width: 410px;
+        font-size: 28px;
+        line-height: 33px;
+        margin: 89px 0 0 40px;
+    }
+
+    .img-gift {
+        position: absolute;
+        right: 137px;
+    }
+
+    /* GOAL SECTION */
+
+    #goal {
+        margin-top: 68px;
+    }
+
+    #goal .subtitle2 {
+        max-width: 740px;
+        margin: 20px auto 77px;
+    }
+
+    .goal-numbers {
+        margin-bottom: 67px;
+    }
+
+    .goal-number {
+        font-size: 60px;
+        line-height: 57px;
+        border-right: 2px solid #9AD2DE;
+        padding: 0 13px;
+    }
+
+    .goal-number:nth-child(3) {
+        border: none;
+    }
+
+    .bottom {
+        margin-bottom: 146px;
+    }
+
+    /* CONTACTS SECTION */
+
+    #contacts {
+        background-color: #F9FADF;
+        position: relative;
+        height: 950px;
+    }
+
+    #contacts .title {
+        margin-left: 100px;
+    }
+
+    #contacts .img-bg {
+        position: absolute;
+        right: 60%;
+        top: -81px;
+    }
+
+    .contacts-container {
+        display: flex;
+        padding-top: 57px;
+    }
+
+    .contacts-container .title {
+        width: 40%;
+        z-index: 5;
+    }
+
+    .bold {
+        font-weight: 800;
+    }
+
+    .phone {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 440px;
+        margin: 5px 0 57px;
+    }
+
+    .img-email {
+        margin-left: 100px;
+        width: 508px;
+        height: 348px;
+        padding: 37px 89px 0 39px;
+    }
+
+    .subscribe {
+        background-color: white;
+        max-width: 1239px;
+        width: 100%;
+        display: flex;
+        margin: 44px auto 0;
+        border-radius: 10px;
+    }
+
+    .subscribe-form {
+        margin-top: 45px;
+    }
+
+    .subscribe-form .subtitle {
+        max-width: 455px;
+    }
+
+    .subscribe-form input {
+        display: block;
+        background-color: #F9FADF;
+        border-radius: 61px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 21px;
+        width: 506px;
+        margin-bottom: 31px;
+        border: none;
+        outline: none;
+    }
+
+    .subscribe-form input::placeholder {
+        color: #000;
+    }
+
+    .subscribe-form button {
+        width: 506px;
+        border: none;
+        font-size: 18px;
+        margin-bottom: 54px;
+    }
